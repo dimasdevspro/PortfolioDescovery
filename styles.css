@@ -11,6 +11,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    color: inherit;
 }
 
 html {
@@ -39,22 +41,22 @@ main {
     justify-content: space-between;
 }
 
+.links_with a:hover {
+    color: var(--bg-techs);
+    transition: 0.9s
+}
+
 .myprojects {
     margin-right: 30px;
     height: 86px;
 }   
 
-.myprojects a {
-    text-decoration: none;
-    color: inherit;
-}
-
-.onix {
+.project {
     display: flex;
     margin-top: 30px;
 }
 
-.myonix {
+.myproject {
     margin-right: 30px;
     height: 186px;
   background-color: var(--bg-cards); 
@@ -63,31 +65,32 @@ main {
   padding: 30px;
 }
 
-.myonix h4 {
-    width: 110px;
+.myproject h4 {
     margin-bottom: 22px;
     display: flex;
     align-items:center;
-    justify-content: space-between;
 }
 
-.myonix p {
+.myproject h4 img {
+    margin-right: 20px;
+}
+.myproject p {
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 20px;
     line-height: 20px;
 }
-.myonixpin1 {
+.myprojectpin1 {
     display: flex;
     justify-content: space-between;
 }
 
-.myonixpin1 p img {
+.myprojectpin1 p img {
     margin: 10px;
 }
 
-.myonixpin2 {
+.myprojectpin2 {
     width: 128px;
     display: flex;
     justify-content: space-between;
@@ -122,17 +125,13 @@ nav {
     border-radius: 50%;
 }
 
-#daylightpost_post {
+.daylightpost_post {
     display: flex ;
     flex-direction: column;
     justify-content: space-between;
 }
 
-#daylightpost_post h4 {
-    margin-bottom: 5px;
-}
-
-#daylightpost_post p {
+.daylightpost_post :nth-child(2) {
     margin-bottom: 15px;
 }
 #daylightpost_hashtag {
@@ -170,8 +169,6 @@ nav {
 .avatarlinks a {
     display: flex;
     align-items: center;
-    text-decoration: none;
-    color: inherit;
 }
 
 .avatarlinks a img {
