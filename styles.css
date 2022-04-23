@@ -13,6 +13,10 @@
     box-sizing: border-box;
 }
 
+html {
+    font-size: 93.75%;
+}
+
 body {
     background: var(--body-bg-color);
     font-family: 'Merriweather Sans ', sans-serif ;
@@ -23,7 +27,7 @@ main {
     margin: 40px;
     position: absolute;
     left: 400px;
-    width: 952px;
+    width: 800px;
 }
 
 .cards {
@@ -33,7 +37,6 @@ main {
     border-radius: 20px;
     padding: 30px;
     justify-content: space-between;
-    align-items: center;
 }
 
 .myprojects {
@@ -210,6 +213,7 @@ nav {
 }
 
 .experiencies {
+    display: block;
     margin: 20px 0 20px 0;
     flex-direction: column;
     height: 400px;
@@ -223,7 +227,7 @@ left: 20px;
 
 .experiencies ul {
     position: relative;
-    left: 10px;
+    left: 30px;
     top: 40px;
 }
 
