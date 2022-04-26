@@ -47,7 +47,7 @@ $ https://code.visualstudio.com/
 $ git clone https://github.com/dimasdevspro/PortfolioDiscovery
 
 # Ainda no terminal, acesse a pasta com mais um comando
-$ cd PortfolioDescovery
+$ cd PortfolioDiscovery
 
 # Agora digite este comando, para editar/testar o projeto
 $ code .
