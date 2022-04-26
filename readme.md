@@ -44,7 +44,7 @@ $ https://code.visualstudio.com/
 # Acesse o terminal/cmd de sua plataforma (Win, Linux, etc)
 
 # Clone este repositório com o seguinte comando abaixo
-$ git clone https://github.com/dimasdevspro/PortfolioDescovery
+$ git clone https://github.com/dimasdevspro/PortfolioDiscovery
 
 # Ainda no terminal, acesse a pasta com mais um comando
 $ cd PortfolioDescovery
