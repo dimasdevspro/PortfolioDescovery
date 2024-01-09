@@ -16,6 +16,7 @@
 }
 
 html {
+    
     font-size: 93.75%;
 }
 
@@ -239,3 +240,26 @@ footer {
     align-items: center;
     margin-bottom: 30px;
 }
+
+/* media queries */
+
+@media screen and (max-width: 1024px) {
+    main {
+        width: 55%;
+        display: block;
+    }
+
+    .project {
+        display: block;
+    }
+
+    .myproject {
+        height: 100%;
+        margin-bottom: 30px;
+    }
+
+    .daylightpost {
+        height: 100%;
+    }
+    
+    }
