@@ -262,4 +262,14 @@ footer {
         height: 100%;
     }
     
+    #daylightpost_hashtag {
+        flex-direction: column;
     }
+
+    }
+
+@media  screen and (max-width: 736px) {
+    #daylightpost_img img {
+        display: none;
+    }
+}
