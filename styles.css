@@ -269,4 +269,8 @@ footer {
     #daylightpost_img img {
         display: none;
     }
+
+    .myprojectpin1 {
+        flex-direction: column;
+    }
 }
