@@ -132,14 +132,11 @@ nav {
     justify-content: space-between;
 }
 
-.daylightpost_post :nth-child(2) {
-    margin-bottom: 15px;
-}
 #daylightpost_hashtag {
     display: flex;
     justify-content: space-between;
-    margin: 10px;
 }
+
 .avatar {
     margin: 20px 0 20px 0;
     flex-direction: column;
