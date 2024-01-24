@@ -153,7 +153,7 @@ nav {
     background-position: center;
     background-size: cover;
     border-radius: 50%;
-    border: 2px solid #00FF00;
+    border: 2px solid var(--bg-techs);
 }
 
 .avatarlinks {
